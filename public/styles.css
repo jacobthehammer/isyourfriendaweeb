@@ -1,10 +1,25 @@
-font-family: monospace;
 body {
-    background-color: HoneyDew;
+    background-color: #f7ebec;
 }
-h1 {
-    color: black;
+
+a,h1,h2,h3,h4,h5,h6 {
+    color: #2b1c1d;
+    text-decoration: none;
+    font-family: monospace;
 }
-p {
-    color: black;
+
+.container {
+    color: #2b1c1d;
+    text-decoration: none;
+    font-family: monospace;
+    text-align: center;
+}
+
+.inputForm[type=text] {
+    color: #2b1c1d;
+    background-color: #f7ebec;
+    resize: none;
+    box-sizing: border-box;
+    width: 70%;
+
 }
