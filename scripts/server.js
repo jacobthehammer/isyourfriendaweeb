@@ -1,5 +1,6 @@
 // Node Server that queries the Steam API and returns a list of games the user owns.
 var SteamApi = require('steam-api')
+var express = require('express');
 const http = require('http')
 const port = 3000
 
