@@ -1,4 +1,10 @@
- /* This file is part of isyourfriendaweeb.
+ /* 
+    @source: https://github.com/jacobthehammer/isyourfriendaweeb/tree/scripts
+    @license: https://www.gnu.org/licenses/gpl.txt
+    Copyright (c) 2018 Jacob A. Hemmerich
+    https://hemmerich.co
+ 
+    This file is part of isyourfriendaweeb.
 
     isyourfriendaweeb is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
