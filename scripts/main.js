@@ -24,9 +24,15 @@
 
 // Get string of steam id, steamID64, or profile name (we'll handle parsing it in server.js)
 
-var steamIDGet = function (field, url) {
+var steamID = function (field, url) {
   var href = url || window.location.href
+  // regex to only allow numbers, letters, and spaces in a steamID
   var reg = new RegExp('[?&]' + field + '=([^&#]*)', 'i')
   var steamID = reg.exec(href)
   return steamID ? steamID[1] : null
+}
+console.log = 'Sending steamID' + steamID + 'to server'
+steamID.send()
+var IsWeeb = function (Get) {
+  document.getElementById('IsWeeb').innerHTML = new IsWeeb().IsWeebString()
 }
