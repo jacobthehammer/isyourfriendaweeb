@@ -22,11 +22,19 @@
 
 
 body {
-    background-color: #f7ebec;
+    background-color: honeyDew;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    color: #F0F7EE;
+h1 {
+    color: #000000;
+    text-decoration:none;
+    font-family: monospace;
+    font-size: 300%;
+
+}
+
+h2,h3,h4,h5,h6 {
+    color: #000000;
     text-decoration: none;
     font-family: monospace;
 }
@@ -40,10 +48,12 @@ h1,h2,h3,h4,h5,h6 {
 
 .inputForm[type=text] {
     color: #000000;
-    background-color: #f7ebec;
+    background-color: honeydew;
     resize: none;
     box-sizing: border-box;
     width: 70%;
+    margin: auto;
+    border: 1px #000000;
 
 }
 .inputForm[type=button] {
@@ -64,7 +74,15 @@ a {
     font-family:monospace
 }
 
-/* Color Palette
+footer {
+    font-family: monospace;
+    color: #000000;
+    font-size: 100%;
+
+
+}
+
+/* Color Palette [Definitely change, this is ugly]
  * #000000 - Black (Text)
  * #5D737E - Dark gray (Highlighting)
  * #FFF07C - Yellow (May change later)
