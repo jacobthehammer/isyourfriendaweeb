@@ -15,7 +15,7 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with isyourfriendaweeb.  If not, see <https://www.gnu.org/licenses/>.
 */
@@ -24,9 +24,9 @@
 
 // Get string of steam id, steamID64, or profile name (we'll handle parsing it in server.js)
 
-var steamIDGet = function ( field, url) {
-	var href = url ? url : window.location.href;
-	var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
-	var steamID = reg.exec(href);
-    return steamID ? steamID[1] : null
+var steamIDGet = function (field, url) {
+  var href = url || window.location.href
+  var reg = new RegExp('[?&]' + field + '=([^&#]*)', 'i')
+  var steamID = reg.exec(href)
+  return steamID ? steamID[1] : null
 }
