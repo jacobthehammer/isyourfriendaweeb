@@ -21,71 +21,26 @@
 */
 
 
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
 body {
-    background-color: honeyDew;
+    background-color: #fff;
+    padding-top:20px;
+    padding-bottom: 50px;
 }
-
-h1 {
-    color: #000000;
-    text-decoration:none;
-    font-family: monospace;
-    font-size: 300%;
-
-}
-
-h2,h3,h4,h5,h6 {
-    color: #000000;
-    text-decoration: none;
-    font-family: monospace;
-}
-
-.container {
-    color: #000000;
-    text-decoration: none;
-    font-family: monospace;
+.center {
+    margin: 0 auto;
+    float: none !important;
     text-align: center;
 }
-
-.inputForm[type=text] {
-    color: #000000;
-    background-color: honeydew;
-    resize: none;
-    box-sizing: border-box;
-    width: 70%;
-    margin: auto;
-    border: 1px #000000;
-
+.spacer {
+    margin: 0 auto 40px;
+    width: 728px;
 }
-.inputForm[type=button] {
-    padding: 20px;
-    color: #000000;
-    background-color: #87BBA2;
-
+.results {
+    margin:40px 0 0;
+    text-align: center;
 }
-
-p {
-    color: #5D737E;
-    font-family: monospace;
-    text-decoration: none;
-
-}
-a {
-    color: #87BBA2;
-    font-family:monospace
-}
-
-footer {
-    font-family: monospace;
-    color: #000000;
-    font-size: 100%;
-
-
-}
-
-/* Color Palette [Definitely change, this is ugly]
- * #000000 - Black (Text)
- * #5D737E - Dark gray (Highlighting)
- * #FFF07C - Yellow (May change later)
- * #F0F7EE - Off-white (Background)
- * #87BBA2 - Green (Links (?))
- */
