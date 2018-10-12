@@ -44,3 +44,15 @@ body {
     margin:40px 0 0;
     text-align: center;
 }
+.results h2 {
+    line-height: 40px;
+}
+
+.sub-footer {
+    margin-top:60px;
+}
+
+.groupFormButton .buttonSuccess, .groupFormButton .buttonSuccess:hover {
+    background-color:#ccc;
+    border-color:#ccc;
+}
