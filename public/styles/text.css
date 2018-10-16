@@ -1,5 +1,5 @@
 /*
- *@source: https://github.com/jacobthehammer/isyourfriendaweeb/tree/scripts
+ *@source: https://github.com/jacobthehammer/isyourfriendaweeb/tree/
  *@license: https://www.gnu.org/licenses/gpl.txt
  *Copyright (c) 2018 Jacob A. Hemmerich
  *https://www.hemmerich.co/
@@ -20,19 +20,13 @@
  *along with isyourfriendaweeb.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// passes inputs from index.html to server.js
-
-// Get string of steam id, steamID64, or profile name (we'll handle parsing it in server.js)
-
-var steamID = function (field, url) {
-  var href = url || window.location.href
-  // regex to only allow numbers, letters, and spaces in a steamID
-  var reg = new RegExp('[?&]' + field + '=([^&#]*)', 'i')
-  var steamID = reg.exec(href)
-  return steamID ? steamID[1] : null
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
-console.log = 'Sending steamID' + steamID + 'to server'
-steamID.send()
-var IsWeeb = function (Get) {
-  document.getElementById('IsWeeb').innerHTML = new IsWeeb().IsWeebString()
+body {
+    background-color: #fff;
+    padding-top:20px;
+    padding-bottom: 50px;
 }
