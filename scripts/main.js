@@ -34,5 +34,5 @@ var steamID = function (field, url) {
 console.log = 'Sending steamID' + steamID + 'to server'
 steamID.send()
 var IsWeeb = function (Get) {
-  document.getElementById('IsWeeb').innerHTML = new IsWeeb().IsWeebString()
+  document.getElementById('MyQuery').innerHTML = new IsWeeb().IsWeebString()
 }
