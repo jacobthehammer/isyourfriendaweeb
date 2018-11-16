@@ -5,9 +5,9 @@ Available on the web eventually at [isyourfriendaweeb.com](https://www.isyourfri
 
 File tree
 ---
-[/LICENSE](https://github.com/jacobthehammer/isyourfriendaweeb/tree/master/LICENSE) -- The licenses and copyright notices that apply to this program <br/>
-[/Public](https://github.com/jacobthehammer/isyourfriendaweeb/tree/master/public) -- Any user-facing stuff. Webpages, themes, etc <br/>
-[/Scripts](https://github.com/jacobthehammer/isyourfriendaweeb/tree/master/scripts) -- The node server and get scripts for the webpage. <br/>
+[LICENSE/](https://github.com/jacobthehammer/isyourfriendaweeb/tree/master/LICENSE) -- The licenses and copyright notices that apply to this program <br/>
+[Public/](https://github.com/jacobthehammer/isyourfriendaweeb/tree/master/public) -- Any user-facing stuff. Webpages, themes, etc <br/>
+[Scripts/](https://github.com/jacobthehammer/isyourfriendaweeb/tree/master/scripts) -- The node server and get scripts for the webpage. <br/>
 
 ---
 
