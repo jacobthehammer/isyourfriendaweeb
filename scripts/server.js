@@ -1,8 +1,8 @@
 /*
  *@source: https://github.com/jacobthehammer/isyourfriendaweeb/tree/scripts
  *@license: https://www.gnu.org/licenses/gpl.txt
+ *@contact: https://www.hemmerich.co/
  *Copyright (c) 2018 Jacob A. Hemmerich
- *https://www.hemmerich.co/
  *
  *This file is part of isyourfriendaweeb.
  *
